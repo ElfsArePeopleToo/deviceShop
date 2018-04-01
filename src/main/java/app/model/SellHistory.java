@@ -3,9 +3,9 @@ package app.model;
 import java.util.Date;
 
 public class SellHistory {
-    private int date;
-    private Device device;
-    private Client client;
+    final private int date;
+    final private Device device;
+    final private Client client;
 
     public SellHistory(int date, Device device, Client client) {
         this.date = date;
@@ -21,7 +21,9 @@ public class SellHistory {
         return device;
     }
 
-    public void setClient(Client client) {
-        this.client = client;
+    public Client getClient(){
+        return client;
     }
+
+
 }

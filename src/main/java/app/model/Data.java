@@ -5,6 +5,7 @@ import app.model.Device;
 import app.model.SellHistory;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class Data {
     private ArrayList<Client> clients;
@@ -18,15 +19,15 @@ public class Data {
     }
 
 
-    public ArrayList<Client> getClients() {
+    public List<Client> getClients() {
         return clients;
     }
 
-    public ArrayList<Device> getDevices() {
+    public List<Device> getDevices() {
         return devices;
     }
 
-    public ArrayList<SellHistory> getHistory() {
+    public List<SellHistory> getHistory() {
         return history;
     }
 }

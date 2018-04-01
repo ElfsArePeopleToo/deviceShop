@@ -5,8 +5,8 @@ import java.util.Comparator;
 public class Client{
 
     private int clientId;
-    private String name;
-    private int year;
+    final private String name;
+    final private int year;
 
 
     public Client(String name, int year) {

@@ -8,7 +8,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 
 public class Menu {
-    public static Data data = new Data();
+    public final static Data DATA = new Data();
     public static void main(String[] args) throws IOException {
         System.out.println("Select an operation");
         System.out.println("1 - Create");
@@ -27,9 +27,9 @@ public class Menu {
             int select2  = Integer.parseInt(reader.readLine());
             Creator creator = new Creator();
             if(select2 == 1){
-                data.getClients().add(creator.createClient());
+                DATA.getClients().add(creator.createClient());
             } else if(select2 ==2){
-                data.getDevices().add(creator.createDevice());
+                DATA.getDevices().add(creator.createDevice());
             }
 
 

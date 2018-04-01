@@ -2,10 +2,9 @@ package app.model;
 
 public class Device {
     private int deviceId;
-    private String mark;
-
-    private String Color;
-    private int year;
+    final private String mark;
+    final private String Color;
+    final private int year;
 
     public Device(String mark, String color, int year) {
         this.mark = mark;
