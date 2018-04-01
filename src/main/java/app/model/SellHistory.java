@@ -3,9 +3,9 @@ package app.model;
 import java.util.Date;
 
 public class SellHistory {
-    final private int date;
-    final private Device device;
-    final private Client client;
+    private final  int date;
+    private final Device device;
+    private final Client client;
 
     public SellHistory(int date, Device device, Client client) {
         this.date = date;

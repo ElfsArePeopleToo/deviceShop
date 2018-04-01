@@ -8,14 +8,14 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Data {
-    private ArrayList<Client> clients;
-    private ArrayList<Device> devices;
-    private ArrayList<SellHistory> history;
+    private List<Client> clients;
+    private List<Device> devices;
+    private List<SellHistory> history;
 
     public Data(){
-        ArrayList<Client> clients = new ArrayList<>();
-        ArrayList<Device> devices = new ArrayList<>();
-        ArrayList<SellHistory> history = new ArrayList<>();
+        List<Client> clients = new ArrayList<>();
+        List<Device> devices = new ArrayList<>();
+        List<SellHistory> history = new ArrayList<>();
     }
 
 

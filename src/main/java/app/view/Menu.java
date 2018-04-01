@@ -8,7 +8,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 
 public class Menu {
-    public final static Data DATA = new Data();
+    public static final Data DATA = new Data();
     public static void main(String[] args) throws IOException {
         System.out.println("Select an operation");
         System.out.println("1 - Create");
